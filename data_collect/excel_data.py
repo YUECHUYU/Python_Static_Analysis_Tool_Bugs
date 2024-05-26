@@ -10,8 +10,8 @@ url = "https://api.github.com/repos/microsoft/pyright/issues"
 # 参数设置，获取已关闭且带有 "bug" 标签的问题
 params = {"state": "closed", "labels": "bug"}
 
-# 请求头设置，记得将 YOUR_ACCESS_TOKEN 替换为你的GitHub个人访问令牌
-headers = {"Authorization": "token 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", "Accept": "applicationnd.github.v3+json"}
+# 请求头设置，将 YOUR_ACCESS_TOKEN 设置为GitHub个人访问令牌
+headers = {"Authorization": "YOUR_ACCESS_TOKEN", "Accept": "applicationnd.github.v3+json"}
 
 # 获取问题数据
 issues = []
